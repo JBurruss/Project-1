@@ -509,9 +509,10 @@ input[type="button"].medium,
 
 .wrapper.style1 {
     padding-top: 10em;
-    padding-bottom: 2em;
+    padding-bottom: 100em;
     background: url(../images/bg.jpg) no-repeat center top;
-    background-size: cover;
+    /*background-size: cover;*/
+    background-size: 100% 100%;
     background-attachment: fixed;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
@@ -686,4 +687,13 @@ iframe {
     font-size: xx-large;
     text-align: center;
 
+}
+#contact{
+    border: solid black;
+    background-color: #eee;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
 }
