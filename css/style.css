@@ -509,7 +509,7 @@ input[type="button"].medium,
 
 .wrapper.style1 {
     padding-top: 10em;
-    padding-bottom: 100em;
+    padding-bottom: 10em;
     background: url(../images/bg.jpg) no-repeat center top;
     /*background-size: cover;*/
     background-size: 100% 100%;
@@ -686,14 +686,22 @@ iframe {
     margin-bottom: 30px;
     font-size: xx-large;
     text-align: center;
-
 }
-#contact{
+
+#contact {
     border: solid black;
     background-color: #eee;
+    margin: auto;
     margin-bottom: 20px;
     margin-left: 30px;
     padding: 20px;
-    width: 350px;
-    height: 300px;
+    width: 650px;
+    height: 250px;
+}
+
+#abim {
+    float: left;
+    height: 60%;
+    border: solid;
+    margin-right: 7px;
 }
